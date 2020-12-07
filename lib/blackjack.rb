@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  rand(12)
+  rand(11) + 1
 end
 
 def display_card_total card_total
@@ -37,6 +37,8 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
